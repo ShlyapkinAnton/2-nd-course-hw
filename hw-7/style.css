@@ -57,6 +57,7 @@ body {
   line-height: 22px;
   display: flex;
   align-items: center;
+  justify-content: center;
   color: #FFFFFF;
   width: 234px;
   padding: 13px 74px 13px 74px;

@@ -39,7 +39,7 @@ function game__two() {
 	};
 
 	questionTwo = prompt("Чему равнялся последний элемент массива?");
-	if (arr[6].toLowerCase() === questionTwo.toLowerCase()) {
+	if (arr[arr.length - 1].toLowerCase() === questionTwo.toLowerCase()) { 
 		alert('Верно');
 		score++;
 	} else {
